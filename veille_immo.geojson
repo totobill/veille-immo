@@ -851,6 +851,29 @@
     "note": "Domaine du Chêne, 10 maisons, entre Annecy et Genève (Sogimm, 13/09)",
     "lien": "https://www.monodimmobilier.com/125-achat-bien-immobilier-annecy.htm"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4904717,
+     46.3128374
+    ]
+   },
+   "properties": {
+    "id": "orcier-m140",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Orcier",
+    "titre": "Maison 6 ch. — Orcier (SOUS OFFRE)",
+    "prix": "140 000 €",
+    "surface_habitable": "159 m²",
+    "surface_terrain": null,
+    "chambres": "6 ch.",
+    "note": "1948, en partie habitable, à rénover — GES G (10 610-14 400 €/an), vue lac, 2 parkings (SAFTI, signature en cours)",
+    "lien": "https://www.seloger.com/annonces/achat/maison/orcier-74550/269F58SX31YT.htm"
+   }
   }
  ]
 }
