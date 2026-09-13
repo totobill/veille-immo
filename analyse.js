@@ -66,7 +66,7 @@
       var c = DVF.communes[n], s = c['12_mois'], cible = c.cible_12_mois;
       var n12 = s ? s.n : 0;
       var ecart = '';
-      if (c.par_annee['2025'] && c.par_annee['2024'] && c.par_annee['2025'].n >= 3 && c.par_annee['2024'].n >= 3) {
+      if (c.par_annee['2025'] && c.par_annee['2024'] && c.par_annee['2025'].n >= 5 && c.par_annee['2024'].n >= 5) {
         var d = (c.par_annee['2025'].pm2_median - c.par_annee['2024'].pm2_median) / c.par_annee['2024'].pm2_median * 100;
         ecart = '<span class="' + (d >= 0 ? 'pos' : 'neg') + '">' + (d >= 0 ? '+' : '') + d.toFixed(1) + ' %</span>';
       }
