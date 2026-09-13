@@ -1,0 +1,16 @@
+{
+ "zones": [
+  {
+   "nom": "Cervens",
+   "lat": 46.2854,
+   "lon": 6.4416,
+   "rayon": 20000
+  },
+  {
+   "nom": "Annecy / Sévrier",
+   "lat": 45.853,
+   "lon": 6.12,
+   "rayon": 20000
+  }
+ ]
+}

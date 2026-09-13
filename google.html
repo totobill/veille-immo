@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+  Variante « Google Maps native » : utilise la Maps JavaScript API (tuiles Google).
+  Prérequis : projet Google Cloud + facturation activée + clé API restreinte au domaine.
+  Remplacer REMPLACER_PAR_TA_CLE_API (et éventuellement REMPLACER_PAR_TON_MAP_ID).
+  Coût à notre volume : 0 € (10 000 chargements de carte/mois offerts).
+-->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veille immo Haute-Savoie — Google Maps</title>
+<style>
+  html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  #map { height: 100vh; }
+  #bandeau { position: absolute; z-index: 5; top: 0; left: 0; right: 0; background: rgba(17,24,39,.92);
+             color: #fff; padding: 10px 14px; font-size: 15px; font-weight: 600; }
+  #info { font-weight: 400; font-size: 13px; opacity: .85; display: block; margin-top: 2px; }
+  #legende { position: absolute; z-index: 5; bottom: 30px; left: 20px; background: #fff; padding: 8px 12px;
+             border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,.25); font-size: 13px; line-height: 1.6; }
+  .puce { display: inline-block; width: 11px; height: 11px; border-radius: 50%; margin-right: 6px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="bandeau">🏠 Veille immo Haute-Savoie — Google Maps<span id="info">chargement…</span></div>
+<div id="legende">
+  <div><span class="puce" style="background:#2563eb"></span>Maison 5 chambres + jardin</div>
+  <div><span class="puce" style="background:#22c55e"></span>Terrain à bâtir</div>
+  <div><span class="puce" style="background:#f59e0b"></span>Hors fourchette</div>
+  <div><span class="puce" style="background:#ef4444"></span>Épicentre — rayon 20 km</div>
+</div>
+
+<script>
+  var CLE_API = 'REMPLACER_PAR_TA_CLE_API';
+  var MAP_ID  = 'REMPLACER_PAR_TON_MAP_ID'; // optionnel : laisser tel quel si tu n'as pas créé de Map ID
+  var COULEURS = { maison: '#2563eb', terrain: '#22c55e', hors: '#f59e0b' };
+
+  function couleur(p) {
+    if (p.hors_budget) { return COULEURS.hors; }
+    return p.type_bien === 'terrain' ? COULEURS.terrain : COULEURS.maison;
+  }
+
+  function initMap() {
+    var options = { center: { lat: 46.20, lng: 6.30 }, zoom: 10, mapTypeControl: true, streetViewControl: false };
+    if (MAP_ID.indexOf('REMPLACER') === -1) { options.mapId = MAP_ID; }
+    var map = new google.maps.Map(document.getElementById('map'), options);
+
+    // Zones de 20 km
+    fetch('zones.json')
+      .then(function (r) { return r.json(); })
+      .then(function (z) {
+        z.zones.forEach(function (zone) {
+          new google.maps.Circle({
+            map: map, center: { lat: zone.lat, lng: zone.lon }, radius: zone.rayon || 20000,
+            strokeColor: '#ef4444', strokeOpacity: .8, strokeWeight: 2, fillColor: '#ef4444', fillOpacity: .04
+          });
+          new google.maps.Marker({ map: map, position: { lat: zone.lat, lng: zone.lon }, title: zone.nom });
+        });
+      })
+      .catch(function (e) { console.error('zones.json : ' + e); });
+
+    // Biens : GeoJSON chargé dans la couche de données Google
+    fetch('veille_immo.geojson')
+      .then(function (r) { return r.json(); })
+      .then(function (gj) {
+        var info = new google.maps.InfoWindow();
+        gj.features.forEach(function (f) {
+          var p = f.properties, c = f.geometry.coordinates;
+          var marker = new google.maps.Marker({
+            map: map, position: { lat: c[1], lng: c[0] }, title: p.titre,
+            icon: {
+              path: google.maps.SymbolPath.CIRCLE, scale: 7,
+              fillColor: couleur(p), fillOpacity: 1, strokeColor: '#ffffff', strokeWeight: 2
+            }
+          });
+          var html = '<div style="font-size:13px;max-width:260px"><b>' + p.titre + '</b><br>Prix : <b>' + p.prix + '</b>' +
+            (p.surface_habitable ? '<br>' + p.surface_habitable : '') +
+            (p.surface_terrain ? '<br>Terrain : ' + p.surface_terrain : '') +
+            (p.chambres ? '<br>' + p.chambres : '') +
+            '<br><span style="color:#555">' + p.note + '</span>' +
+            '<br><a href="' + p.lien + '" target="_blank" rel="noopener">Voir l\'annonce ↗</a></div>';
+          marker.addListener('click', function () {
+            info.setContent(html);
+            info.open({ anchor: marker, map: map });
+          });
+        });
+        var nb = gj.features.length;
+        document.getElementById('info').textContent = nb + ' biens suivis (maj automatique chaque dimanche)';
+      })
+      .catch(function (e) {
+        document.getElementById('info').textContent = 'Erreur de chargement : ' + e;
+      });
+  }
+</script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=REMPLACER_PAR_TA_CLE_API&callback=initMap&loading=async">
+</script>
+</body>
+</html>

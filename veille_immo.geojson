@@ -1,0 +1,856 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t572",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 572 m² — Cervens",
+    "prix": "190 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "572 m²",
+    "chambres": null,
+    "note": "Plein cœur de commune (Leman Genève Immo)",
+    "lien": "https://www.haute-savoie-immo.com/annonces/terrain-de-572-m-a-cervens-lgi"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t768",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 768 m² — Cervens",
+    "prix": "220 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "768 m²",
+    "chambres": null,
+    "note": "Axe frontalier Genève/Thonon (Leman Genève Immo)",
+    "lien": "https://www.haute-savoie-immo.com/annonces/terrain-de-768m-a-cervens-lgi"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3702817,
+     46.264918
+    ]
+   },
+   "properties": {
+    "id": "bons-t520",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Bons-en-Chablais",
+    "titre": "Terrain 520 m² — Bons-en-Chablais",
+    "prix": "195 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "520 m²",
+    "chambres": null,
+    "note": "~5 km de Cervens (Leman Genève Immo)",
+    "lien": "https://www.haute-savoie-immo.com/annonces/terrain-de-520-m-a-bonsenchablais-lgi"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.5195025,
+     46.3479165
+    ]
+   },
+   "properties": {
+    "id": "armoy-t850",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Armoy",
+    "titre": "Terrain 850 m² — Armoy",
+    "prix": "240 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "850 m²",
+    "chambres": null,
+    "note": "~13 km, proche Thonon (Leman Genève Immo / Lémaniv)",
+    "lien": "https://www.haute-savoie-immo.com/annonces/terrain-de-850-m-a-armoy-lemaniv"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t400",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 400 m² — Cervens",
+    "prix": "149 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "400 m²",
+    "chambres": null,
+    "note": "École à pied, sud, vue espace vert (Maisons France Confort)",
+    "lien": "https://www.terrain-construction.com/terrain-a-vendre/haute-savoie-74/bons-en-chablais-74890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4418109,
+     46.3044117
+    ]
+   },
+   "properties": {
+    "id": "perrignier-t861",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Perrignier",
+    "titre": "Terrain 861 m² — Perrignier",
+    "prix": "230 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "861 m²",
+    "chambres": null,
+    "note": "~4 km de Cervens, 267 €/m² (iad)",
+    "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=9510766&ville=perrignier&departement=74"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4649753,
+     46.3367823
+    ]
+   },
+   "properties": {
+    "id": "allinges-t968",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Allinges",
+    "titre": "Terrain 968 m² — Allinges",
+    "prix": "238 500 €",
+    "surface_habitable": null,
+    "surface_terrain": "968 m²",
+    "chambres": null,
+    "note": "~5 km, 246 €/m², quartier calme (3G Immo)",
+    "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=9372318&ville=allinges&departement=74"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3752502,
+     46.331359
+    ]
+   },
+   "properties": {
+    "id": "sciez-lots",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Sciez",
+    "titre": "Lotissement — Sciez (10 lots)",
+    "prix": "139 000 – 234 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "288-619 m²",
+    "chambres": null,
+    "note": "Crédit Mutuel Aménagement Foncier",
+    "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=6299349&ville=sciez&departement=74"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4324291,
+     46.338746
+    ]
+   },
+   "properties": {
+    "id": "margencel-t800",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Margencel",
+    "titre": "Terrain 800 m² — Margencel",
+    "prix": "345 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "800 m²",
+    "chambres": null,
+    "note": "431 €/m², proche lac (Peillex Gestion)",
+    "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=9013570&ville=margencel&departement=74"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4779448,
+     46.3731303
+    ]
+   },
+   "properties": {
+    "id": "thonon-m550",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Thonon-les-Bains",
+    "titre": "Maison 5 ch. — Thonon Ouest",
+    "prix": "550 000 €",
+    "surface_habitable": "130 m²",
+    "surface_terrain": "jardin",
+    "chambres": "5 ch.",
+    "note": "Axe Genève, 15 min embarcadère (CDM Patrimoine/FNAIM)",
+    "lien": "https://www.etreproprio.com/immobilier-vente-thonon-les-bains-v74281/maison"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4779448,
+     46.3731303
+    ]
+   },
+   "properties": {
+    "id": "thonon-m653",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Thonon-les-Bains",
+    "titre": "Maison 5 ch. — Thonon Ouest",
+    "prix": "653 800 €",
+    "surface_habitable": "147 m²",
+    "surface_terrain": "552 m²",
+    "chambres": "5 ch.",
+    "note": "Proche écoles/centre, haut de fourchette (eXp)",
+    "lien": "https://properties.lefigaro.com/announces/luxury-haute+savoie-rhone+alpes-france?ville=thonon+bains"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4324291,
+     46.338746
+    ]
+   },
+   "properties": {
+    "id": "margencel-m206",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Margencel",
+    "titre": "Maison 5 ch. — Allinges/Margencel",
+    "prix": "prix sur demande",
+    "surface_habitable": "206 m²",
+    "surface_terrain": "jardin",
+    "chambres": "5 ch.",
+    "note": "Les Clefs de Chez Moi",
+    "lien": "https://www.lesclefsdechezmoi.fr/achat-immobilier/haute-savoie/margencel/maisons/5-chambres.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.318395,
+     46.1901631
+    ]
+   },
+   "properties": {
+    "id": "lucinges-m440",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Lucinges",
+    "titre": "Maison 4 ch. — Lucinges (à rénover)",
+    "prix": "440 000 €",
+    "surface_habitable": "137 m²",
+    "surface_terrain": "1 038 m²",
+    "chambres": "4 ch.",
+    "note": "Classe G — hors critère 5 ch. mais gros potentiel (Capifrance)",
+    "lien": "https://www.capifrance.fr/fr/immobilier/vente/maison/lucinges/maison-a-vendre-5-pieces-de-137-m2-terrain-d-env-1000-m2-lucinges-74/212890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3213839,
+     46.2357361
+    ]
+   },
+   "properties": {
+    "id": "saintcergues-m795",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Saint-Cergues",
+    "titre": "Maison 5 ch. — Saint-Cergues",
+    "prix": "795 000 €",
+    "surface_habitable": "194 m²",
+    "surface_terrain": "1 017 m²",
+    "chambres": "5 ch.",
+    "note": "Bâtisse 1910 rénovée, vue lac — hors budget (Capifrance)",
+    "lien": "https://www.capifrance.fr/fr/immobilier/vente/maison/saint-cergues/saint-cergues-74-a-vendre-7-pieces-194-26m2-140m2-d-annexes-dont-une-batisse-independante-piscinable-au-calme-vue-lac/603532"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.1288847,
+     45.8992348
+    ]
+   },
+   "properties": {
+    "id": "annecy-fins-m650",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Annecy",
+    "titre": "Maison 5 ch. — Annecy (Les Fins)",
+    "prix": "650 000 €",
+    "surface_habitable": "150 m²",
+    "surface_terrain": "405 m²",
+    "chambres": "5 ch.",
+    "note": "Architecte 1961, légèrement > 600 k€ (Althenor)",
+    "lien": "https://www.logic-immo.com/recherche-immo/vente/maison/jardin/auvergne-rhone-alpes/annecy-74000/ad08fr37304"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0908687,
+     45.9380958
+    ]
+   },
+   "properties": {
+    "id": "epagny-m560",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Épagny-Metz-Tessy",
+    "titre": "Maison 5 ch. — Épagny-Metz-Tessy",
+    "prix": "560 000 €",
+    "surface_habitable": "130 m²",
+    "surface_terrain": null,
+    "chambres": "5 ch.",
+    "note": "Dans la fourchette (Les Clefs de Chez Moi)",
+    "lien": "https://www.lesclefsdechezmoi.fr/achat-immobilier/haute-savoie/annecy/maisons/5-chambres.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0908687,
+     45.9380958
+    ]
+   },
+   "properties": {
+    "id": "epagny-neuve-m600",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Épagny-Metz-Tessy",
+    "titre": "Maison neuve 5 ch. — Épagny",
+    "prix": "~600 000 €",
+    "surface_habitable": "137 m²",
+    "surface_terrain": "593 m²",
+    "chambres": "5 ch.",
+    "note": "Programme Maisons Oxygène",
+    "lien": "https://www.logic-immo.com/recherche-immo/vente/maison/jardin/auvergne-rhone-alpes/annecy-74000/ad08fr37304"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0730401,
+     45.854423
+    ]
+   },
+   "properties": {
+    "id": "seynod-vieugy-m550",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Seynod (Vieugy)",
+    "titre": "Maison 4-5 ch. — Seynod Vieugy",
+    "prix": "549 900 €",
+    "surface_habitable": "113 m²",
+    "surface_terrain": "jardin",
+    "chambres": "4-5 ch.",
+    "note": "Récente, PAC, écoles à pied — modulable 5 (Orpi)",
+    "lien": "https://www.orpi.com/annonce-vente-maison-t5-seynod-74600-f8609934-cb9c-4fb7-abef-979bf50836ad/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0626528,
+     45.9220363
+    ]
+   },
+   "properties": {
+    "id": "poisy-m746",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Poisy",
+    "titre": "Maison 5 ch. — Poisy",
+    "prix": "746 000 €",
+    "surface_habitable": "132 m²",
+    "surface_terrain": "300 m²",
+    "chambres": "5 ch.",
+    "note": "Vue dégagée, hors budget (Baltic)",
+    "lien": "https://www.toutvendre.fr/p/maison-5-chambres-vue-degagee/986808073"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3702817,
+     46.264918
+    ]
+   },
+   "properties": {
+    "id": "bons-m480",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Bons-en-Chablais",
+    "titre": "Maison 6 ch. — Bons-en-Chablais",
+    "prix": "480 000 €",
+    "surface_habitable": "134 m²",
+    "surface_terrain": "1 151 m²",
+    "chambres": "6 ch.",
+    "note": "Construite 2000, cœur de Bons, commerces/écoles à pied (Nestenn, vu 30/08)",
+    "lien": "https://nestenn.com/vente/maison/bons-en-chablais-74890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3941025,
+     46.2735521
+    ]
+   },
+   "properties": {
+    "id": "brenthonne-m590",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Brenthonne",
+    "titre": "Maison 5 ch. — Brenthonne",
+    "prix": "590 000 €",
+    "surface_habitable": "147 m²",
+    "surface_terrain": "1 323 m²",
+    "chambres": "5 ch.",
+    "note": "DPE G — budget travaux à prévoir (Nestenn réf.12887, vu 30/08)",
+    "lien": "https://nestenn.com/charmante-maison-familiale-a-vendre-a-brenthonne-7-pieces-grand-terrain-et-garage-ref-39627543"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t500",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 500 m² — Cervens",
+    "prix": "180 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "500 m²",
+    "chambres": null,
+    "note": "Lotissement calme, libre constructeur, 5 min gare Léman Express (eXp, vu 30/08)",
+    "lien": "https://www.seloger.com/annonces/achat/terrain/cervens-74/256723829.htm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t400b",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 400 m² — Cervens",
+    "prix": "159 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "400 m²",
+    "chambres": null,
+    "note": "Zone UC2, ~200 m² habitables possibles, proche cœur/CEVA (Group Swiss Immo, vu 30/08)",
+    "lien": "https://www.toutypasse.com/annonce/terrain/cervens-a-vendre-terrain-constructible-TOP28f2ba83"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3702817,
+     46.264918
+    ]
+   },
+   "properties": {
+    "id": "bons-m458",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Bons-en-Chablais",
+    "titre": "Maison 5 ch. — Bons-en-Chablais (à rénover)",
+    "prix": "458 000 €",
+    "surface_habitable": "130 m²",
+    "surface_terrain": "1 362 m²",
+    "chambres": "5 ch.",
+    "note": "Années 60 à rénover, sortie de village, proche écoles/gare (IMMO3CONCEPT, nouveau 06/09)",
+    "lien": "https://www.seloger.com/recherche/achat/maison/chambre-5/auvergne-rhone-alpes/bons-en-chablais-74890/ad08fr30835"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3702817,
+     46.264918
+    ]
+   },
+   "properties": {
+    "id": "bons-m535",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Bons-en-Chablais",
+    "titre": "Maison 5 ch. plain-pied — Bons-en-Chablais",
+    "prix": "535 000 €",
+    "surface_habitable": "165 m²",
+    "surface_terrain": "1 100 m²",
+    "chambres": "5 ch.",
+    "note": "5 ch. + 6e possible, garage 53 m², piscine à rénover, toiture refaite — parcelle attenante possible (ORPI Veigimmo, nouveau 06/09)",
+    "lien": "https://immobilier.lefigaro.fr/annonces/annonce-106295387.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3941025,
+     46.2735521
+    ]
+   },
+   "properties": {
+    "id": "brenthonne-m548",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Brenthonne",
+    "titre": "Maison 5 ch. — Brenthonne",
+    "prix": "548 000 €",
+    "surface_habitable": "170 m²",
+    "surface_terrain": "1 867 m²",
+    "chambres": "5 ch.",
+    "note": "DPE D, beaux volumes, accès Léman Express (Efficity, nouveau 06/09)",
+    "lien": "https://www.paruvendu.fr/immobilier/vente/maison/brenthonne-74890"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t851",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 851 m² — Cervens",
+    "prix": "185 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "851 m²",
+    "chambres": null,
+    "note": "Plat, viabilisé, libre constructeur, CES 0,40 (~200-217 €/m², nouveau 06/09)",
+    "lien": "https://www.petitspriximmo.com/propriete/terrain/terrain-a-batir/lotissement/cervens-74550-calme-verdoyant/813158-maison-pierre-ravissante-en-bord-de-riviere-la-reorthe/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t1131",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 1 131 m² — Cervens",
+    "prix": "195 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "1 131 m²",
+    "chambres": null,
+    "note": "~172 €/m² — offre liée à un constructeur (MCA), vérifier liberté (nouveau 06/09)",
+    "lien": "https://www.etreproprio.com/immobilier-24057520-vente-terrain-1131-m-a-cervens-cervens"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t400-139",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 400 m² — Cervens",
+    "prix": "139 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "400 m²",
+    "chambres": null,
+    "note": "348 €/m², secteur calme et préservé (Kévin Fumaz, nouveau 13/09)",
+    "lien": "https://www.seloger.com/annonce/achat/auvergne-rhone-alpes/haute-savoie-74/cervens-74550/26MTZTEBFXX4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t495",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 495 m² — Cervens",
+    "prix": "175 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "495 m²",
+    "chambres": null,
+    "note": "354 €/m², plat, viabilisé, petit lotissement (Au fil de l'immo, nouveau 13/09)",
+    "lien": "https://www.seloger.com/annonce/achat/auvergne-rhone-alpes/haute-savoie-74/cervens-74550/25C49TY6LM75"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t801",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 801 m² — Cervens",
+    "prix": "195 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "801 m²",
+    "chambres": null,
+    "note": "243 €/m², plat, viabilisé, CES 0,40, libre constructeur (Poirier Immo, nouveau 13/09)",
+    "lien": "https://www.seloger.com/annonce/achat/auvergne-rhone-alpes/haute-savoie-74/cervens-74550/26FI9YLXFVKG"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4591471,
+     46.3049414
+    ]
+   },
+   "properties": {
+    "id": "draillant-t428",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Draillant",
+    "titre": "Terrain 428 m² — Draillant",
+    "prix": "165 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "428 m²",
+    "chambres": null,
+    "note": "386 €/m², ~2,6 km de Cervens, petit lotissement (Optimhome, nouveau 13/09)",
+    "lien": "https://www.seloger.com/annonces/achat/terrain/draillant-74/259969999.htm"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4418109,
+     46.3044117
+    ]
+   },
+   "properties": {
+    "id": "perrignier-t1200",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Perrignier",
+    "titre": "Terrain 1 200 m² — Perrignier",
+    "prix": "290 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "1 200 m²",
+    "chambres": null,
+    "note": "242 €/m², ~4 km de Cervens, 5 min gare CEVA, libre constructeur (SAFTI, nouveau 13/09)",
+    "lien": "https://www.seloger.com/annonce/26WCE76TGTWA"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-m599",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Maison 4 ch. — Cervens",
+    "prix": "599 000 €",
+    "surface_habitable": "186 m²",
+    "surface_terrain": "1 207 m²",
+    "chambres": "4 ch.",
+    "note": "1988, piscine, 5 places de parking, proche écoles — 4 ch. (5e possible) ; un affichage 185 m²/5 ch. à 695 k€ (Alentoor) semble être le même bien (13/09)",
+    "lien": "https://av-transaction.immo/annonce/7501822924/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3702817,
+     46.264918
+    ]
+   },
+   "properties": {
+    "id": "bons-m575",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Bons-en-Chablais",
+    "titre": "Maison 5 ch. — Bons-en-Chablais",
+    "prix": "575 000 €",
+    "surface_habitable": "164 m²",
+    "surface_terrain": "1 375 m²",
+    "chambres": "5 ch.",
+    "note": "1990 demi-niveaux, hauteurs de Bons, 5 min gare CEVA (Poirier Immo, exclusivité, 13/09)",
+    "lien": "https://www.logic-immo.com/recherche-immo/vente/maison/auvergne-rhone-alpes/bons-en-chablais-74890/ad08fr30835"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.3702817,
+     46.264918
+    ]
+   },
+   "properties": {
+    "id": "bons-m695",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Bons-en-Chablais",
+    "titre": "Maison 7 ch. — Bons-en-Chablais",
+    "prix": "695 000 €",
+    "surface_habitable": "204 m²",
+    "surface_terrain": "4 614 m²",
+    "chambres": "7 ch.",
+    "note": "Hors budget mais rare : 4 614 m² de terrain (Veigimmo, nouveau 13/09)",
+    "lien": "https://www.logic-immo.com/recherche-immo/vente/maison/auvergne-rhone-alpes/bons-en-chablais-74890/ad08fr30835"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.1326256,
+     46.000001
+    ]
+   },
+   "properties": {
+    "id": "villy-neuve-m525",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Villy-le-Pelloux",
+    "titre": "Maison neuve 4-5 ch. — Villy-le-Pelloux",
+    "prix": "525 000 €",
+    "surface_habitable": "106 m²",
+    "surface_terrain": "terrain",
+    "chambres": "4-5 ch.",
+    "note": "Domaine du Chêne, 10 maisons, entre Annecy et Genève (Sogimm, 13/09)",
+    "lien": "https://www.monodimmobilier.com/125-achat-bien-immobilier-annecy.htm"
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Veille immo Haute-Savoie — maison 5 chambres</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  html, body { margin: 0; height: 100%; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  #map { height: 100vh; }
+  #bandeau {
+    position: absolute; z-index: 1000; top: 0; left: 0; right: 0;
+    background: rgba(17, 24, 39, .92); color: #fff; padding: 10px 14px;
+    font-size: 15px; font-weight: 600;
+  }
+  #info { font-weight: 400; font-size: 13px; opacity: .85; display: block; margin-top: 2px; }
+  #legende {
+    position: absolute; z-index: 1000; bottom: 22px; left: 20px; background: #fff;
+    padding: 10px 14px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    font-size: 13px; line-height: 1.7;
+  }
+  .puce { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+  @media (max-width: 600px) { #legende { font-size: 12px; padding: 8px 10px; bottom: 12px; left: 12px; } }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="bandeau">🏠 Veille immo Haute-Savoie — <span id="maj">mise à jour du 13/09/2026</span><span id="info">chargement…</span></div>
+<div id="legende">
+  <div><span class="puce" style="background:#2563eb"></span>Maison 5 chambres + jardin</div>
+  <div><span class="puce" style="background:#22c55e"></span>Terrain à bâtir</div>
+  <div><span class="puce" style="background:#f59e0b"></span>Hors fourchette (info marché)</div>
+  <div><span class="puce" style="background:#ef4444"></span>Épicentre — rayon 20 km</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
