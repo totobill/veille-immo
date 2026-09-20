@@ -1,6 +1,6 @@
 {
  "source": "DVF géolocalisées (Etalab/DGFiP)",
- "maj": "2026-09-13",
+ "maj": "2026-09-20",
  "annees": [
   2021,
   2022,
@@ -1789,6 +1789,95 @@
    },
    "total_ventes_5ans": 170
   },
+  "Chavanod": {
+   "insee": "74067",
+   "lat": 45.8857,
+   "lon": 6.0517,
+   "population": 3135,
+   "par_annee": {
+    "2021": {
+     "n": 12,
+     "pm2_median": 4377,
+     "pm2_q1": 3489,
+     "pm2_q3": 5140,
+     "prix_median": 572350,
+     "surface_mediane": 125,
+     "prix_m2_min": 2817,
+     "prix_m2_max": 7136
+    },
+    "2022": {
+     "n": 14,
+     "pm2_median": 4950,
+     "pm2_q1": 3896,
+     "pm2_q3": 6316,
+     "prix_median": 555650,
+     "surface_mediane": 112,
+     "prix_m2_min": 1316,
+     "prix_m2_max": 7500
+    },
+    "2023": {
+     "n": 11,
+     "pm2_median": 5658,
+     "pm2_q1": 4828,
+     "pm2_q3": 6333,
+     "prix_median": 638600,
+     "surface_mediane": 120,
+     "prix_m2_min": 2424,
+     "prix_m2_max": 6523
+    },
+    "2024": {
+     "n": 13,
+     "pm2_median": 4557,
+     "pm2_q1": 3564,
+     "pm2_q3": 5260,
+     "prix_median": 479800,
+     "surface_mediane": 98,
+     "prix_m2_min": 1845,
+     "prix_m2_max": 62278
+    },
+    "2025": {
+     "n": 18,
+     "pm2_median": 4734,
+     "pm2_q1": 3380,
+     "pm2_q3": 5746,
+     "prix_median": 535760,
+     "surface_mediane": 107,
+     "prix_m2_min": 947,
+     "prix_m2_max": 11500
+    }
+   },
+   "12_mois": {
+    "n": 22,
+    "pm2_median": 4930,
+    "pm2_q1": 3530,
+    "pm2_q3": 5746,
+    "prix_median": 527860,
+    "surface_mediane": 102,
+    "prix_m2_min": 947,
+    "prix_m2_max": 62278
+   },
+   "cible_5ans": {
+    "n": 45,
+    "pm2_median": 4410,
+    "pm2_q1": 3614,
+    "pm2_q3": 5558,
+    "prix_median": 579000,
+    "surface_mediane": 122,
+    "prix_m2_min": 947,
+    "prix_m2_max": 11500
+   },
+   "cible_12_mois": {
+    "n": 12,
+    "pm2_median": 4734,
+    "pm2_q1": 2978,
+    "pm2_q3": 5804,
+    "prix_median": 616500,
+    "surface_mediane": 121,
+    "prix_m2_min": 947,
+    "prix_m2_max": 11500
+   },
+   "total_ventes_5ans": 68
+  },
   "Villy-le-Pelloux": {
    "insee": "74307",
    "lat": 46.0004,
@@ -2443,6 +2532,20 @@
   },
   {
    "date": "2025-12-18",
+   "prix": 687000,
+   "surface": 155,
+   "terrain": 1157,
+   "pieces": 7,
+   "pm2": 4432,
+   "lat": "45.88933",
+   "lon": "6.064885",
+   "adresse": "RTE DE MACLAMOD",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
+   "date": "2025-12-18",
    "prix": 485000,
    "surface": 110,
    "terrain": 934,
@@ -2902,6 +3005,20 @@
    "annee": 2025,
    "commune": "Épagny Metz-Tessy",
    "insee": "74112"
+  },
+  {
+   "date": "2025-12-03",
+   "prix": 700000,
+   "surface": 120,
+   "terrain": 3012,
+   "pieces": 4,
+   "pm2": 5833,
+   "lat": "45.881137",
+   "lon": "6.051092",
+   "adresse": "RTE DE FORNEYRA",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2025-12-03",
@@ -3465,6 +3582,20 @@
   },
   {
    "date": "2025-11-12",
+   "prix": 97500,
+   "surface": 103,
+   "terrain": 4474,
+   "pieces": 5,
+   "pm2": 947,
+   "lat": "45.884059",
+   "lon": "6.034047",
+   "adresse": "RTE DE CHEZ GRILLET",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
+   "date": "2025-11-12",
    "prix": 565000,
    "surface": 101,
    "terrain": 878,
@@ -3660,6 +3791,20 @@
    "insee": "74281"
   },
   {
+   "date": "2025-11-03",
+   "prix": 572519,
+   "surface": 93,
+   "terrain": 454,
+   "pieces": 5,
+   "pm2": 6156,
+   "lat": "45.879825",
+   "lon": "6.054184",
+   "adresse": "RTE DU CREVION",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2025-10-31",
    "prix": 433000,
    "surface": 80,
@@ -3688,6 +3833,20 @@
    "insee": "74112"
   },
   {
+   "date": "2025-10-31",
+   "prix": 467000,
+   "surface": 82,
+   "terrain": 177,
+   "pieces": 4,
+   "pm2": 5695,
+   "lat": "45.880118",
+   "lon": "6.053784",
+   "adresse": "RTE DE CORBIER",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2025-10-30",
    "prix": 545170,
    "surface": 123,
@@ -3700,6 +3859,20 @@
    "annee": 2025,
    "commune": "Allinges",
    "insee": "74005"
+  },
+  {
+   "date": "2025-10-30",
+   "prix": 1150000,
+   "surface": 100,
+   "terrain": 0,
+   "pieces": 3,
+   "pm2": 11500,
+   "lat": "45.883339",
+   "lon": "6.062017",
+   "adresse": "IMP DU MIRACLE",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2025-10-29",
@@ -4178,6 +4351,20 @@
    "insee": "74281"
   },
   {
+   "date": "2025-10-10",
+   "prix": 579000,
+   "surface": 115,
+   "terrain": 2876,
+   "pieces": 5,
+   "pm2": 5035,
+   "lat": "45.886403",
+   "lon": "6.068168",
+   "adresse": "RTE DU MONT",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2025-10-08",
    "prix": 650000,
    "surface": 160,
@@ -4528,6 +4715,20 @@
    "insee": "74020"
   },
   {
+   "date": "2025-09-19",
+   "prix": 535800,
+   "surface": 123,
+   "terrain": 0,
+   "pieces": 6,
+   "pm2": 4356,
+   "lat": "45.885348",
+   "lon": "6.042393",
+   "adresse": "CHE DE LA CROIX",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2025-09-18",
    "prix": 632000,
    "surface": 175,
@@ -4554,6 +4755,20 @@
    "annee": 2025,
    "commune": "Féternes",
    "insee": "74127"
+  },
+  {
+   "date": "2025-09-18",
+   "prix": 150000,
+   "surface": 80,
+   "terrain": 2674,
+   "pieces": 3,
+   "pm2": 1875,
+   "lat": "45.876482",
+   "lon": "6.062293",
+   "adresse": "RTE DU CHAMP DE L'ALE",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2025-09-17",
@@ -5424,6 +5639,20 @@
    "insee": "74013"
   },
   {
+   "date": "2025-07-17",
+   "prix": 654000,
+   "surface": 106,
+   "terrain": 906,
+   "pieces": 4,
+   "pm2": 6170,
+   "lat": "45.879907",
+   "lon": "6.05446",
+   "adresse": "RTE DU CREVION",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2025-07-16",
    "prix": 455000,
    "surface": 100,
@@ -5492,6 +5721,34 @@
    "annee": 2025,
    "commune": "Saint-Cergues",
    "insee": "74229"
+  },
+  {
+   "date": "2025-07-15",
+   "prix": 697500,
+   "surface": 122,
+   "terrain": 735,
+   "pieces": 5,
+   "pm2": 5717,
+   "lat": "45.889972",
+   "lon": "6.038661",
+   "adresse": "IMP DU GRAND PRE",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
+   "date": "2025-07-15",
+   "prix": 350000,
+   "surface": 139,
+   "terrain": 1077,
+   "pieces": 8,
+   "pm2": 2518,
+   "lat": "45.889445",
+   "lon": "6.042055",
+   "adresse": "RTE COTE LA DAME",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2025-07-11",
@@ -6460,6 +6717,20 @@
    "insee": "74112"
   },
   {
+   "date": "2025-04-22",
+   "prix": 535720,
+   "surface": 122,
+   "terrain": 968,
+   "pieces": 5,
+   "pm2": 4391,
+   "lat": "45.880173",
+   "lon": "6.054234",
+   "adresse": "RTE DE CORBIER",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2025-04-18",
    "prix": 470000,
    "surface": 137,
@@ -6671,6 +6942,20 @@
   },
   {
    "date": "2025-03-31",
+   "prix": 200000,
+   "surface": 108,
+   "terrain": 686,
+   "pieces": 5,
+   "pm2": 1852,
+   "lat": "45.881303",
+   "lon": "6.062205",
+   "adresse": "IMP SOUS LE BOIS",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
+   "date": "2025-03-31",
    "prix": 669400,
    "surface": 131,
    "terrain": 3372,
@@ -6783,6 +7068,20 @@
   },
   {
    "date": "2025-03-28",
+   "prix": 836765,
+   "surface": 161,
+   "terrain": 1035,
+   "pieces": 6,
+   "pm2": 5197,
+   "lat": "45.875965",
+   "lon": "6.034415",
+   "adresse": "ALL DES POMMIERS",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
+   "date": "2025-03-28",
    "prix": 420000,
    "surface": 128,
    "terrain": 2485,
@@ -6808,6 +7107,20 @@
    "annee": 2025,
    "commune": "Draillant",
    "insee": "74106"
+  },
+  {
+   "date": "2025-03-25",
+   "prix": 330000,
+   "surface": 90,
+   "terrain": 920,
+   "pieces": 5,
+   "pm2": 3667,
+   "lat": "45.876474",
+   "lon": "6.041605",
+   "adresse": "RTE DE CHEZ GUEUDET",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2025-03-24",
@@ -7202,6 +7515,20 @@
    "insee": "74043"
   },
   {
+   "date": "2025-02-21",
+   "prix": 520000,
+   "surface": 97,
+   "terrain": 1203,
+   "pieces": 4,
+   "pm2": 5361,
+   "lat": "45.897177",
+   "lon": "6.069305",
+   "adresse": "RTE DE CHARRIONDE",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2025-02-20",
    "prix": 227654,
    "surface": 58,
@@ -7340,6 +7667,20 @@
    "annee": 2025,
    "commune": "Épagny Metz-Tessy",
    "insee": "74112"
+  },
+  {
+   "date": "2025-02-04",
+   "prix": 330000,
+   "surface": 80,
+   "terrain": 2674,
+   "pieces": 3,
+   "pm2": 4125,
+   "lat": "45.876482",
+   "lon": "6.062293",
+   "adresse": "RTE DU CHAMP DE L'ALE",
+   "annee": 2025,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2025-01-30",
@@ -7566,6 +7907,20 @@
    "insee": "74156"
   },
   {
+   "date": "2024-12-31",
+   "prix": 5418160,
+   "surface": 87,
+   "terrain": 65828,
+   "pieces": 4,
+   "pm2": 62278,
+   "lat": "45.878931",
+   "lon": "6.058409",
+   "adresse": "RTE DU CHAMP DE L'ALE",
+   "annee": 2024,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2024-12-30",
    "prix": 405000,
    "surface": 88,
@@ -7718,6 +8073,20 @@
    "annee": 2024,
    "commune": "Lucinges",
    "insee": "74153"
+  },
+  {
+   "date": "2024-12-17",
+   "prix": 473000,
+   "surface": 91,
+   "terrain": 543,
+   "pieces": 4,
+   "pm2": 5198,
+   "lat": "45.893716",
+   "lon": "6.064284",
+   "adresse": "RTE DU CHATEAU",
+   "annee": 2024,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2024-12-16",
@@ -8154,6 +8523,20 @@
    "insee": "74106"
   },
   {
+   "date": "2024-10-08",
+   "prix": 448698,
+   "surface": 93,
+   "terrain": 607,
+   "pieces": 5,
+   "pm2": 4825,
+   "lat": "45.878859",
+   "lon": "6.039047",
+   "adresse": "IMP DES SEZETTES",
+   "annee": 2024,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2024-10-04",
    "prix": 545000,
    "surface": 100,
@@ -8166,6 +8549,20 @@
    "annee": 2024,
    "commune": "Villy-le-Pelloux",
    "insee": "74307"
+  },
+  {
+   "date": "2024-09-30",
+   "prix": 290000,
+   "surface": 93,
+   "terrain": 303,
+   "pieces": 5,
+   "pm2": 3118,
+   "lat": "45.878859",
+   "lon": "6.039047",
+   "adresse": "IMP DES SEZETTES",
+   "annee": 2024,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2024-09-27",
@@ -8322,6 +8719,20 @@
    "insee": "74020"
   },
   {
+   "date": "2024-08-08",
+   "prix": 653520,
+   "surface": 147,
+   "terrain": 1070,
+   "pieces": 7,
+   "pm2": 4446,
+   "lat": "45.894731",
+   "lon": "6.072442",
+   "adresse": "RTE DES MARAIS",
+   "annee": 2024,
+   "commune": "Chavanod",
+   "insee": "74067"
+  },
+  {
    "date": "2024-08-02",
    "prix": 610000,
    "surface": 198,
@@ -8376,6 +8787,20 @@
    "annee": 2024,
    "commune": "Margencel",
    "insee": "74163"
+  },
+  {
+   "date": "2024-07-19",
+   "prix": 525000,
+   "surface": 98,
+   "terrain": 310,
+   "pieces": 4,
+   "pm2": 5357,
+   "lat": "45.879071",
+   "lon": "6.055849",
+   "adresse": "RTE DU CHAMP DE L'ALE",
+   "annee": 2024,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2024-07-12",
@@ -8558,6 +8983,20 @@
    "annee": 2024,
    "commune": "Lucinges",
    "insee": "74153"
+  },
+  {
+   "date": "2024-06-12",
+   "prix": 495000,
+   "surface": 93,
+   "terrain": 265,
+   "pieces": 3,
+   "pm2": 5323,
+   "lat": "45.890403",
+   "lon": "6.038861",
+   "adresse": "IMP DU GRAND PRE",
+   "annee": 2024,
+   "commune": "Chavanod",
+   "insee": "74067"
   },
   {
    "date": "2024-06-03",

@@ -874,6 +874,213 @@
     "note": "1948, en partie habitable, à rénover — GES G (10 610-14 400 €/an), vue lac, 2 parkings (SAFTI, signature en cours)",
     "lien": "https://www.seloger.com/annonces/achat/maison/orcier-74550/269F58SX31YT.htm"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4904717,
+     46.3128374
+    ]
+   },
+   "properties": {
+    "id": "orcier-m280",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Orcier",
+    "titre": "Maison de village 6 ch. + granges — Orcier",
+    "prix": "280 000 €",
+    "surface_habitable": "240 m²",
+    "surface_terrain": "330 m²",
+    "chambres": "6 ch.",
+    "note": "1890, 9 pièces, à rénover, granges/écuries, vue lac, ~3 km de Cervens (SAFTI, nouveau 20/09)",
+    "lien": "https://www.safti.fr/annonces/achat/maison/orcier-74550/1571586"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4591471,
+     46.3049414
+    ]
+   },
+   "properties": {
+    "id": "draillant-m595",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Draillant",
+    "titre": "Maison 6 ch. — Draillant",
+    "prix": "595 000 €",
+    "surface_habitable": "230 m²",
+    "surface_terrain": "jardin",
+    "chambres": "6 ch.",
+    "note": "~2,6 km de Cervens, 2 587 €/m² (Les Clefs de Chez Moi, nouveau 20/09)",
+    "lien": "https://www.lesclefsdechezmoi.fr/achat-immobilier/haute-savoie/draillant/maisons/maison-6chambres-230m2-5091560.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4145431,
+     46.284893
+    ]
+   },
+   "properties": {
+    "id": "lully-m649",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Lully",
+    "titre": "Maison 6 ch. — Lully",
+    "prix": "649 000 €",
+    "surface_habitable": "189 m²",
+    "surface_terrain": "1 385 m²",
+    "chambres": "6 ch.",
+    "note": "Séjour 50 m², terrain piscinable, impasse au calme — > 600 k€ (Les Clefs de Chez Moi, nouveau 20/09)",
+    "lien": "https://www.lesclefsdechezmoi.fr/achat-immobilier/haute-savoie/lully/maisons/maison-6chambres-190m2-5296640.html"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4591471,
+     46.3049414
+    ]
+   },
+   "properties": {
+    "id": "draillant-t431",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Draillant",
+    "titre": "Terrain 431 m² — Draillant",
+    "prix": "175 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "431 m²",
+    "chambres": null,
+    "note": "406 €/m², viabilisé, libre constructeur, emprise 90 m² (Optimhome, nouveau 20/09)",
+    "lien": "https://www.optimhome.com/fr/immobilier/vente/terrain/draillant/terrain-a-vendre-de-431-00-m2-draillant-74/204858"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4418109,
+     46.3044117
+    ]
+   },
+   "properties": {
+    "id": "perrignier-t322",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Perrignier",
+    "titre": "Terrain 322 m² — Perrignier",
+    "prix": "140 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "322 m²",
+    "chambres": null,
+    "note": "435 €/m², lotissement Crédit Mutuel Aménagement Foncier (nouveau 20/09)",
+    "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=9611383&ville=perrignier&departement=74"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0992785,
+     45.8880398
+    ]
+   },
+   "properties": {
+    "id": "seynod-m648",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Seynod",
+    "titre": "Maison 5 ch. — Seynod (Annecy)",
+    "prix": "648 000 €",
+    "surface_habitable": "158 m²",
+    "surface_terrain": "820 m²",
+    "chambres": "5 ch.",
+    "note": "6 pièces, terrain 820 m², proche commodités — au-dessus de 600 k€ (MD Services Immo, 20/09)",
+    "lien": "https://www.seloger.com/recherche/achat/maison/chambre-5/haute-savoie-74/seynod-74600/nbh1fr846"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0908687,
+     45.9380958
+    ]
+   },
+   "properties": {
+    "id": "epagny-t680",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Épagny-Metz-Tessy",
+    "titre": "Terrain 680 m² — Épagny (Bromines)",
+    "prix": "299 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "680 m²",
+    "chambres": null,
+    "note": "440 €/m², libre constructeur, CES 0,25, bus à proximité, non viabilisé (SNPI, nouveau 20/09)",
+    "lien": "https://snpi.immo/fr/propriete/vente+terrain+epagny-metz-tessy+exclusivite-terrain-a-batir-680-m2-vue-degagee-sect+86885157"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.1404951,
+     45.8641144
+    ]
+   },
+   "properties": {
+    "id": "sevrier-t1035",
+    "type_bien": "terrain",
+    "hors_budget": true,
+    "commune": "Sévrier",
+    "titre": "Terrain 1 035 m² vue lac — Sévrier",
+    "prix": "620 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "1 035 m²",
+    "chambres": null,
+    "note": "599 €/m², libre constructeur, PC purgé (~200 m²) — > 600 k€ (Etre Proprio, 20/09)",
+    "lien": "https://www.etreproprio.com/immobilier-26506096-vente-terrain-a-batir-tres-belle-vue-lac-et-montagnes-sevrier"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0525071,
+     45.8842342
+    ]
+   },
+   "properties": {
+    "id": "chavanod-t1979",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Chavanod",
+    "titre": "Terrain 1 979 m² — Chavanod",
+    "prix": "490 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "1 979 m²",
+    "chambres": null,
+    "note": "1 046 m² constructible + 933 m² nature, viabilisé, libre constructeur (SAFTI, 20/09)",
+    "lien": "https://www.paruvendu.fr/immobilier/vente/terrain-constructible/1294121222A1KIVHTE000"
+   }
   }
  ]
 }
