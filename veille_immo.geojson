@@ -266,15 +266,15 @@
    "properties": {
     "id": "margencel-m206",
     "type_bien": "maison",
-    "hors_budget": false,
+    "hors_budget": true,
     "commune": "Margencel",
-    "titre": "Maison 5 ch. — Allinges/Margencel",
-    "prix": "prix sur demande",
+    "titre": "Maison 7 pièces 5 ch. — Margencel",
+    "prix": "695 000 €",
     "surface_habitable": "206 m²",
-    "surface_terrain": "jardin",
+    "surface_terrain": "1 528 m²",
     "chambres": "5 ch.",
-    "note": "Les Clefs de Chez Moi",
-    "lien": "https://www.lesclefsdechezmoi.fr/achat-immobilier/haute-savoie/margencel/maisons/5-chambres.html"
+    "note": "Le prix est enfin affiché : 695 000 € (3 367 €/m²), portes ouvertes le 3/10 — > 600 k€. Terrain annoncé 1 528 m² (Century 21) vs 1 275 m² (Les Clefs de Chez Moi, prix sur demande jusqu'au 27/09) : même bien a priori",
+    "lien": "https://www.seloger.com/annonce/achat/auvergne-rhone-alpes/haute-savoie-74/margencel-74200/26HG4JBF6W47"
    }
   },
   {
@@ -1080,6 +1080,98 @@
     "chambres": null,
     "note": "1 046 m² constructible + 933 m² nature, viabilisé, libre constructeur (SAFTI, 20/09)",
     "lien": "https://www.paruvendu.fr/immobilier/vente/terrain-constructible/1294121222A1KIVHTE000"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4591471,
+     46.3049414
+    ]
+   },
+   "properties": {
+    "id": "draillant-m163",
+    "type_bien": "maison",
+    "hors_budget": false,
+    "commune": "Draillant",
+    "titre": "Maison mitoyenne 4 ch. (+1 possible) — Draillant",
+    "prix": "359 000 €",
+    "surface_habitable": "163 m²",
+    "surface_terrain": "326 m²",
+    "chambres": "4-5 ch.",
+    "note": "2 202 €/m² — le meilleur €/m² du secteur. Ancien, volumes, proche école primaire ; 5e chambre aménageable à l'étage ; PAC posée par le vendeur (DPE projeté C) ; parcelle agricole vendue en sus (Capifrance, nouveau 24/09)",
+    "lien": "https://www.alentoor.fr/draillant/immobilier/19631579-maison-163-m-5-pieces"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4591471,
+     46.3049414
+    ]
+   },
+   "properties": {
+    "id": "draillant-t573",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Draillant",
+    "titre": "Terrain 573 m² — Draillant",
+    "prix": "184 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "573 m²",
+    "chambres": null,
+    "note": "321 €/m², zone UD, cadre résidentiel agréable (~2,6 km de Cervens, nouveau 27/09)",
+    "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=9750602&ville=draillant&departement=74"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.4415552,
+     46.2854365
+    ]
+   },
+   "properties": {
+    "id": "cervens-t256",
+    "type_bien": "terrain",
+    "hors_budget": false,
+    "commune": "Cervens",
+    "titre": "Terrain 256 m² — Cervens",
+    "prix": "158 000 €",
+    "surface_habitable": null,
+    "surface_terrain": "256 m²",
+    "chambres": null,
+    "note": "617 €/m² — le plus cher du secteur : lotissement Nexity Foncier Conseil 100 % viabilisé, mais emprise très faible (nouveau 27/09)",
+    "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=8804943&ville=cervens&departement=74"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     6.0908687,
+     45.9380958
+    ]
+   },
+   "properties": {
+    "id": "epagny-m610",
+    "type_bien": "maison",
+    "hors_budget": true,
+    "commune": "Épagny-Metz-Tessy",
+    "titre": "Maison 5 ch. — Épagny-Metz-Tessy",
+    "prix": "610 000 €",
+    "surface_habitable": "112 m²",
+    "surface_terrain": null,
+    "chambres": "5 ch.",
+    "note": "Nouveau : 610 000 € (5 446 €/m²) — 5 ch. mais juste au-dessus de 600 k€ (Les Clefs de Chez Moi)",
+    "lien": "https://www.lesclefsdechezmoi.fr/achat-immobilier/haute-savoie/epagny-metz-tessy/maisons/maison-5chambres-112m2-5036442.html"
    }
   }
  ]
