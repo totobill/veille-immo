@@ -1150,29 +1150,6 @@
     "note": "617 €/m² — le plus cher du secteur : lotissement Nexity Foncier Conseil 100 % viabilisé, mais emprise très faible (nouveau 27/09)",
     "lien": "https://www.les-terrains.com/index.php?page=terrains&mode_aff=un_terrain&idter=8804943&ville=cervens&departement=74"
    }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     6.0908687,
-     45.9380958
-    ]
-   },
-   "properties": {
-    "id": "epagny-m610",
-    "type_bien": "maison",
-    "hors_budget": true,
-    "commune": "Épagny-Metz-Tessy",
-    "titre": "Maison 5 ch. — Épagny-Metz-Tessy",
-    "prix": "610 000 €",
-    "surface_habitable": "112 m²",
-    "surface_terrain": null,
-    "chambres": "5 ch.",
-    "note": "Nouveau : 610 000 € (5 446 €/m²) — 5 ch. mais juste au-dessus de 600 k€ (Les Clefs de Chez Moi)",
-    "lien": "https://www.lesclefsdechezmoi.fr/achat-immobilier/haute-savoie/epagny-metz-tessy/maisons/maison-5chambres-112m2-5036442.html"
-   }
   }
  ]
 }
